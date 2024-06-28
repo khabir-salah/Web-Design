@@ -22,4 +22,18 @@
         <label for="personal"> <input type="radio" name="check-button" id="personal-account">Personal</label>
         <label for="Buisness"><input type="radio" name="check-button" id="Buisness-account">Buisness </label>
     </fieldset>
+    <fieldset>
+        <label for="upload" class="up">UpLoad a profile picture: <input type="file"></label>
+        <label for="age" class="up">Input your Age(years) <input type="number" max="120" min="3"></label>
+        <label for="about" class="up">How did you hear about us: <select name="about" id="referral">
+            <option value="">(Select one)</option>
+        <option value="1">twitter</option>
+        <option value="2">Free codecamp news</option>
+        <option value="3">freecode camp youtube</option>
+        <option value="4">other</option>
+        </select></label>
+        <label for="bio" class="up">Provide a bio <textarea name="bio" id="bio-info" placeholder="i enjoy coding" rows="5"> </textarea></label>
+        <p><label for="terms"><input type="checkbox">I accept the <a href="freecodecamp.org">terms and condition</a></label></p>
+        <label for="submit"><input type="submit"></label>
+    </fieldset>
 </body>
