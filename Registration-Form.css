@@ -18,3 +18,15 @@ fieldset{
     display: grid;
     color: white;
 }
+.Top{
+    color: white; 
+    text-align: center; 
+}
+.down{
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
