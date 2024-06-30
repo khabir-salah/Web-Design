@@ -1,0 +1,20 @@
+body{
+    background-color: #1b1b32;
+    font-family: Tahoma;
+}
+fieldset{
+    /* display: grid; */
+    margin: 0;
+    padding: 20px 20%;
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+}
+.up{
+    display: grid;
+    color: white;
+    padding: 5px;
+}
+.radio{
+    display: grid;
+    color: white;
+}
