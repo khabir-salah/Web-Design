@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Registration Form</title>
+</head>
+<body>
+     <section class="Top">
+        <h1 id="tittle">freecodecamp Survey Form</h1>
+     <p id="discription">Thank you for taking the time to help us improve the platform</p>
+
+     </section>
+    <form action="" id="survey-form">
+        <label for="first-name" class="up">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" class="up">Email<input type=email id="email" placeholder="Enter your Email" required></label>
+        <label for="age" class="up">Age(Optional) <input type="number" placeholder="age" max="120" min="3"></label>
+        <label for="about" class="up">Which option best describes your current role? <select name="about" id="dropdown">
+            <option value="">(Select one)</option>
+        <option value="1">student</option>
+        <option value="2">full time job</option>
+        <option value="3">full time learner</option>
+        <option value="4">other</option>
+        </select></label>
+        <legend class="up">would you recommend freecodecamp to a friend?</legend>
+        <label for="definitely"> <input type="radio" name="check-button" id="first">Definitely</label>
+        <label for="maybe"><input type="radio" name="check-button" id="second">Maybe</label>
+        <label for="not-sure"><input type="radio" name="check-button" id="third">Not sure</label>
+        <label for="about" class="up">What is your favorite feature of freeCodeCamp? <select name="about" id="dropdown">
+            <option value="">(Select one)</option>
+        <option value="1">challenges</option>
+        <option value="2">project</option>
+        <option value="3">community</option>
+        <option value="4">open source</option>
+        </select></label>
+        <legend class="up">What would you like to see improved? (check all that apply)</legend>
+        <section id="text-color">
+            <p><label for="terms"><input type="checkbox">Front-end projects</label></p>
+        <p><label for="terms"><input type="checkbox">Back-end projects</label></p>
+        <p><label for="terms"><input type="checkbox">Data Visualization</label></p>
+        <p><label for="terms"><input type="checkbox">Challenges</label></p>
+        <label for="bio" class="up">Any Suggestion <textarea name="bio" id="bio-info" placeholder="i enjoy coding" rows="5"> </textarea></label>
+        </section>
+        <label for="submit"><input type="submit"></label>
+    </form>
+</body>
+</html>
