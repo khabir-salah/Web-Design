@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    padding: 50px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.general{
+    height: 75vh;
+    width: 60vw;
+}
+
+.outer{
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    display: grid;
+    align-content: center;
+
+}
+
+#inner-one{
+    background-color: white;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+h2{
+    color: rgb(149, 149, 245);
+
+}
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.inner-two{
+    margin-right: 0%;
+    justify-content: center ;
+    padding: 30px;
+    color: white;
+    background-color: hsl(230, 75%, 69%);
+}
+
+#button{
+    background-color:  rgb(213, 219, 44); 
+    height: 40px;
+    margin-left: 30px;
+    color: white;
+    box-shadow: 10px;
+    border-color:  rgb(214, 241, 80);
+    padding: 0px 60px;
+}
+#monthly{
+    color: rgb(255, 255, 255, 0.9);
+}
+#full{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.month{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+#dollar{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 10px;
+}
+.inner-three{
+    margin-right: 0%;
+    color: white;
+    padding: 30px;
+    background-color: rgb(138, 100, 226);
+}
+
+
+
+h3{
+    color: rgb(181, 211, 33);
+}
+
+#small{
+    color: rgb(99, 149, 110);
+}
