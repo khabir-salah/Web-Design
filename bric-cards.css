@@ -1,0 +1,90 @@
+.outer{
+    background-color: whitesmoke;
+    display: grid;
+
+}   
+*{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(C:\Users\ADMIN\Desktop\BigFile\single-price-grid-component-master\images\white-Background.jpeg);;
+    background-color: rgb(183, 180, 177);
+    padding: 50px 50px;
+}
+h3{
+    color: rgb(197, 181, 155);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.color{
+    color: rgb(148, 131, 104);
+}
+.big{
+    background-color: whitesmoke;
+    margin-bottom: 10%;
+    padding: 0px 40px;
+    padding-top: 40px;
+}
+.inner{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    /* display: grid; */
+    justify-content:center;
+    /* margin-bottom: 20px; */
+}
+
+.one{
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    padding-left: 20px;
+    border-top: solid;  
+    border-color: brown;  
+}
+.two{
+    background-color: white;
+    box-shadow: 30px;
+    border-top: solid;    
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    border-color: yellow;
+    padding-left: 20px;
+}
+.three{
+    /* margin-left: 65%; */
+    padding-left: 20px;
+    background-color: white;
+    width: 40%;
+    height: 90%;   
+    border-top: solid;    
+    border-color: rgb(169, 193, 193);
+}
+.four{
+    /* margin-left: 80px; */
+    padding-left: 20px;
+    background-color: white;
+    border-top: solid;    
+    border-color: rgb(74, 237, 237);
+    width: 40%;
+    height: 90%;
+}
+.up{
+    display: grid;;;
+    /* display: flex; */
+}
+.down{
+    display: flex;;;
+    /* display: grid; */
+    justify-content:space-between;
+}
+img{
+    margin-left: 50%;
+    padding-bottom: 20px;
+}
+.merge{
+    /* margin: -20px; */
+}
