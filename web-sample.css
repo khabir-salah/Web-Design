@@ -37,6 +37,7 @@ h2{
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* padding-bottom: 20px; */
 }
 .inner-two{
     margin-right: 0%;
